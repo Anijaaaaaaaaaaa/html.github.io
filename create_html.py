@@ -68,6 +68,6 @@ last_html = html.format(text, text2)
 with open(r'./index1.html', mode='w', encoding='utf-8') as f:
     f.write(last_html)
 
-config = pdfkit.configuration(wkhtmltopdf=r'https://github.com/Anijaaaaaaaaaaa/html.github.io/releases/download/2020-08-16/wkhtmltopdf.exe')
-pdfkit.from_string(last_html, '四字熟語.pdf', options=options, configuration=config)
+#config = pdfkit.configuration(wkhtmltopdf=r'https://github.com/Anijaaaaaaaaaaa/html.github.io/releases/download/2020-08-16/wkhtmltopdf.exe')
+#pdfkit.from_string(last_html, '四字熟語.pdf', options=options, configuration=config)
 
